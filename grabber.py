@@ -8,6 +8,8 @@ def extract_transfers_from_file(file_path):
     model_data = []
     current_model = {}
     capture_phase = False
+
+    # the list 'elements' you can modify it to search for the specifics ones you are looking for, returns an excel sheet.
     
     elements = [
         "Fe(OH)3(a)", "Dolomite", "Rhodochrosite", "Al(OH)3(a)", "Alunite", "Halite", "Pyrochroite", 
